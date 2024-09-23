@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <p>© 2024 Your Company. All Rights Reserved.</p>
+      <p>© 2024 Sweets by Ray. All Rights Reserved.</p>
     </footer>
   </template>
   
@@ -12,10 +12,13 @@
   
   <style scoped>
   footer {
-    background-color: #333;
+    background-color: #7b573e;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-  }
+  
+    }
+
+  
   </style>
   

@@ -1,9 +1,12 @@
 <template>
+    
     <div class="card">
       <img :src="imageSrc" :alt="title" />
       <h3>{{ title }}</h3>
       <p>{{ description }}</p>
+      <router-link :to="{ path: '/detail', query: { title, imageSrc, description}}">
       <button>{{ buttonText }}</button>
+    </router-link>
     </div>
   </template>
   
@@ -34,12 +37,12 @@
   <style scoped>
   .card {
     width: 300px;
-    background-color: #fff;
+    background-color: #b46c3c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
-    text-align: left;
+    text-align: center;
     transition: transform 0.3s;
   }
   
@@ -66,7 +69,7 @@
   button {
     margin: 0 20px 20px;
     padding: 10px 20px;
-    background-color: #ff9900;
+    background-color: #7b573e;
     color: #fff;
     border: none;
     cursor: pointer;
