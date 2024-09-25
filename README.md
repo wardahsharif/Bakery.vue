@@ -45,6 +45,8 @@ Here's a view of the About section, where customers learn more about the bakery 
 ## Services Page
 Our Services page lists the various bakery and cafe offerings available.
 ![Services Page Screenshot](src/assets/homepage2.png)
+![Services Page Screenshot](src/assets/service.png)
+
 
 ## Contact Page
 This is where customers can find our contact details and reach out for inquiries.
